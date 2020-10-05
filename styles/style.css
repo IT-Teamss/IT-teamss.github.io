@@ -363,7 +363,7 @@
 		font-size:1.3em;
 	}
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
 	.section_1{
 		min-height:500px;
 	}
