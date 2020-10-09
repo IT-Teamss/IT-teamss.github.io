@@ -407,3 +407,50 @@
 	}
 	
 }
+
+form {
+  width:70%;
+  margin-left:37%;
+  float:left;
+}
+
+form label {
+  float:left;
+  width:100%;
+  margin-bottom:10px;
+}
+form #send {
+  float:left;
+  padding:10px;
+  background-color:#f37a7a;
+  margin-top:15px;
+  width:30%;
+  margin-left:7%;
+  color:#fff;
+  font-size:2em;
+  cursor:pointer;
+}
+form #send:hover {
+  background-color:#b9f37a;
+}
+form textarea {
+    width:41%;
+    float:left;
+    clear:both;
+    height:100px;
+    background-color:#fafafa;
+    border:2 px solid silver;
+    border-radius:5px;
+    padding:10px;
+    font-size:1.7em;
+}
+
+form input{
+  border-radius:5px;
+  border:2px solid silver;
+  padding:5px;
+  float:left;
+  clear:both;
+  margin-bottom:10px;
+  width:40%;
+}
