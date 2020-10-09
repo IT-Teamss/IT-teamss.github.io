@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+ <head>
+   <title></title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href='styles/style.css'>
+   
+ </head>
+ <body>
+	<script type="text/javascript">
+		
+window.addEventListener("load",function(){
+	
+	var toggle = document.querySelector(".menu_toggle");
+	
+	menu = document.querySelector(".section_1 .menu");
+	
+	toggle.addEventListener("click",show_hide_menu);
+});
+
+function show_hide_menu(){
+	if(menu.style.display=='none'|| menu.style.display==""){
+		menu.style.display='block';
+	}
+	else{
+		menu.style.display='none';
+	}
+}
+
+  </script>
+	<div class='wrapper'>
+		<!--SECTION 1 -->
+		<div class='section_1'>
+			<div class='header'>
+			    <div class='menu_toggle'>Menu</div>
+				<ul class='menu'><li><a href='#'>Головна</a></li><li><a href='#about'>Про нас</a></li><li><a href='#coach'>Проекти</a></li><li><a href='#contact'>Написати нам</a></li><li><a href='#contact'>Контакти</a></li>
+				</ul>
+			</div>
+			<div class='content'>
+				
+				<h1>IT-teams</h1>
+				<h3>fast</h6>
+				<h3>reliable</h3>
+				<h3>high quality</h3>
+				<a href="#contact">Написати нам</a>
+			</div>
+		</div>
+
+
+					<!--SECTION NEW -->
+<div class='section_new'>
+<div id="feedback">
+  <form action="" method="post">
+    <label for="subject">Тема повідомлення:</label>
+    <input type="text"id="subject"required placeholder="Введіть тему повідомлення"/>
+    
+    <label for="adress">Ел. адреса:</label>
+    <input type="email" id="adress"required placeholder="adress@examle.com"/>
+    
+    <input type="text" id ="name"required placeholder="Введіть ваше ім'я"/>
+    
+    <label for="message">Ваше повідомлення:</label>
+    <textarea placeholder="Введіть ваше повідомлення" id="message"></textarea>
+    <input type="submit" value="Відправити" required id="send" name="send"/>
+  </form>
+</div>
+</div>
+		<!--SECTION 5 -->
+		<div class='section_5'>
+			<div class='wrap'>
+					<div class='item'><span>Адрес:</span>ул. Матеюка 2</div>
+					<div class='item'><span>Email:</span>info@it_teams.com</div>
+					<div class='item'><span>Телефон:</span>+38(099)1234567</div>
+			</div>
+		</div>
+	</div>
+ </body>
+</html>
