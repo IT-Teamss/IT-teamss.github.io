@@ -407,7 +407,13 @@
 	}
 	
 }
-
+.section_new{
+	width:100%;
+	background-color:#fcf2f2;
+	min-height:600px;
+	padding-top:50px;
+	padding-bottom:50px;
+}
 form {
   width:70%;
   margin-left:37%;
